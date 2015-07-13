@@ -1,9 +1,3 @@
----
-languages: ruby
-tags: regex
-resources: 2
----
-
 # Regex Rally
 
 ## Objectives
