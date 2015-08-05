@@ -118,7 +118,6 @@ describe "Working with Regular expressions" do
     it "matches valid email address" do
       # Don't use the crazy one from the RFC!
       my_regex = //
-
       match = %w{steven@flatironschool.com john.doe@example.com phil@example.co.uk }
       do_not_match = ["steven@flatironschool", "user at example.com", "user@example.com@example.com"]
 
@@ -139,11 +138,11 @@ describe "Working with Regular expressions" do
       do_not_match = ["123", "this isn't a number", "12345678900000", "abcdefghij", "123456789a"]
 
       match.each do |word|
-        expect(word.scan(my_regex).length).to eq(10)
+        expect(word.scan(my_regex).join).to eq(word)
       end
 
       do_not_match.each do |word|
-        expect(word.scan(my_regex).length).to_not eq(10)
+        expect(word.scan(my_regex).join).to_not eq(word)
       end
     end
   end
