@@ -134,7 +134,7 @@ describe "Working with Regular expressions" do
 
   context "The scan method" do
     it "matches valid US phone numbers regardless of format" do
-      my_regex = /\d/
+      my_regex = /^\(?\d{3}[\)-]? ?\d{3}-?\d{4}$/
       match = ["702-386-5397", "2128675309", "(212) 867-5309"]
       do_not_match = ["123", "this isn't a number", "12345678900000", "abcdefghij", "123456789a"]
 
