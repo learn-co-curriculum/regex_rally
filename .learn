@@ -2,4 +2,4 @@ languages:
   - ruby
 tags:
   - regex
-resources: 2
+resources: 3
