@@ -20,3 +20,5 @@ All your work should be done directly in the spec, `spec/regex_rally_spec.rb`.
 * [Rubular](http://rubular.com/)
 * ["Regular Expressions, Say What" - Ruby-003 alum Bana](http://bandanakm.tumblr.com/post/64629161187/regular-expressions-say-what-s)
 * [Regular Expressions 101](https://regex101.com/r/qQ2dE4/1) - this is a cool regex editor and debugger that lets you create, debug, test and have your expressions explained
+
+<a href='https://learn.co/lessons/regex_rally' data-visibility='hidden'>View this lesson on Learn.co</a>
